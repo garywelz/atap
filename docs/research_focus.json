@@ -1,0 +1,70 @@
+{
+  "project": "Axiomatic Theories, Algorithms and Proofs",
+  "updated": "2026-07-25",
+
+  "active_questions": [
+    {
+      "q": "What is the current state of work on representing proofs as structured objects, and how does the eight-role proof-graph vocabulary relate to it?",
+      "terms": ["proof representation", "proof structure", "natural deduction", "proof nets", "Curry-Howard correspondence", "formalized mathematics", "proof assistant library"],
+      "since": "2026-07-01"
+    },
+    {
+      "q": "Which further classical proofs contain algorithm capsules, and which domains should the ATAP corpus cover next?",
+      "terms": ["diagonalization", "self-reference", "fixed point theorem", "constructive proof", "decision procedure", "independence result", "incompleteness"],
+      "since": "2026-07-01"
+    },
+    {
+      "q": "What methods exist for measuring structural similarity between labeled directed graphs, so 'family resemblance' becomes measurable rather than visible?",
+      "terms": ["graph similarity", "subgraph isomorphism", "network motif", "graph edit distance", "graph embedding", "structural comparison"],
+      "since": "2026-07-01"
+    },
+    {
+      "q": "How have formal methods been applied to biological and other non-mathematical systems, and what did those applications actually yield?",
+      "terms": ["formal methods systems biology", "Boolean network model", "model checking biological", "formal verification biology", "qualitative modeling gene regulation"],
+      "since": "2026-07-23"
+    }
+  ],
+
+  "frontier": [
+    {
+      "open": "Whether the algorithm-capsule regularity is a real structural feature of mathematics or an artifact of how these three proofs were encoded",
+      "terms": ["algorithm capsule", "diagonalization family", "proof structure"],
+      "why": "The paper's central empirical claim rests on n=3. A family of three could be selection effect: capsules were found because capsules were sought. No literature settles this — it needs more entries encoded without looking for capsules, or an independent encoder."
+    },
+    {
+      "open": "Whether the eight-role node vocabulary is adequate as the corpus grows, or will need roles it does not yet have",
+      "terms": ["proof role vocabulary", "justification structure", "proof graph"],
+      "why": "A vocabulary that never needs revision may be under-tested rather than correct. Only encoding unfamiliar proof types reveals this."
+    },
+    {
+      "open": "Whether Mermaid graph representation is right for mathematics, or the most-used method mistaken for the only one",
+      "terms": ["knowledge representation", "diagrammatic reasoning", "string diagram", "commutative diagram", "proof visualization"],
+      "why": "Constitution anti-hammer clause aimed at this project. The Methods Catalog says Mermaid distorts what is not nodes-and-edges — magnitude, continuity, uncertainty. Which mathematical content is lost, and what would render it? Answering requires trying an alternative on a real proof, not reading about alternatives."
+    },
+    {
+      "open": "Whether pointing mathematical structure at an under-mathematized domain produces genuine discovery or sophisticated re-description — GLMP being the first test",
+      "terms": ["formal methods application", "interdisciplinary formalization", "predictive model validation"],
+      "why": "The mother-lode question for the whole mathematics initiative. GLMP and this project are already one bridge — the same Programming Framework applied to gene-regulatory logic and to justificatory structure, two domains sharing no subject matter. The claim only holds if formalizing a domain yields something that was not visible before it; a re-description that predicts nothing new is a marked limit, not a finding."
+    },
+    {
+      "open": "Whether the graph representation preserves what makes a proof beautiful, or strips exactly that out",
+      "terms": ["mathematical beauty", "explanatory proof", "proof elegance", "mathematical intuition"],
+      "why": "The sharper, empirically approachable form of the mathematics/feeling boundary question. If the diagonal move's beauty is structural, the graph should carry it — strong evidence for the representation. If beauty is precisely the residue that does not survive encoding, that is a limit with teeth. Either answer is a finding; neither is in the literature."
+    }
+  ],
+
+  "flagged": [],
+
+  "categories": ["math.LO", "cs.LO", "cs.PL", "math.CT", "cs.DM"],
+
+  "horizons": [
+    "formal verification and proof assistant libraries (Lean mathlib, Coq, Isabelle)",
+    "category theory and string diagrams as alternative representations",
+    "machine learning over graph-structured mathematical objects",
+    "automated theorem proving and proof search",
+    "mathematical structure in music and its emotional effect",
+    "cognitive science of mathematical intuition and elegance"
+  ],
+
+  "mute": ["cryptocurrency", "stock price prediction", "LLM benchmark leaderboard results", "quantum supremacy claims"]
+}
