@@ -9,3 +9,6 @@
 
 # Cleanout staging (local-only, reversible buffer before eventual empty-pass)
 archive/
+# Papers-tree archive snippets (moved from progframe; tracked source, not cleanout)
+!collaborations/mathematics-database/archive/
+!collaborations/mathematics-database/archive/**

@@ -1,0 +1,19 @@
+{
+  "theme": "base",
+  "fontSize": 18,
+  "themeVariables": {
+    "fontFamily": "Arial, Helvetica, sans-serif",
+    "fontSize": "18px",
+    "primaryTextColor": "#0f172a",
+    "lineColor": "#334155",
+    "edgeLabelBackground": "#ffffff"
+  },
+  "flowchart": {
+    "htmlLabels": true,
+    "nodeSpacing": 55,
+    "rankSpacing": 65,
+    "padding": 18,
+    "curve": "basis"
+  },
+  "themeCSS": ".node .label, .nodeLabel, .nodeLabel span, .label, .label span, .node text, .node tspan { color: #1e1e1e !important; fill: #1e1e1e !important; font-size: 18px !important; font-weight: 700 !important; } .node rect, .node circle, .node polygon, .node path { stroke-width: 2px !important; }"
+}

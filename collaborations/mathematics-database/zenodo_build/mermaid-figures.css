@@ -1,0 +1,39 @@
+/* GLMP figures — dark labels on pastel fills (mmdc PDF export) */
+body {
+  margin: 0;
+  background: #ffffff;
+}
+
+.mermaid svg {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.mermaid .node .label,
+.mermaid .nodeLabel,
+.mermaid .nodeLabel span,
+.mermaid .label,
+.mermaid .label span,
+.mermaid .node text,
+.mermaid .node tspan,
+.mermaid span.nodeLabel {
+  color: #1e1e1e !important;
+  fill: #1e1e1e !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  line-height: 1.25 !important;
+}
+
+.mermaid .node rect,
+.mermaid .node circle,
+.mermaid .node polygon,
+.mermaid .node path {
+  stroke-width: 2px !important;
+}
+
+.mermaid .edgeLabel,
+.mermaid .edgeLabel span {
+  background-color: #ffffff !important;
+  color: #1e1e1e !important;
+  fill: #1e1e1e !important;
+  font-weight: 600 !important;
+}

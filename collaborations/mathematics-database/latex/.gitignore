@@ -1,0 +1,17 @@
+# Build artifacts (regenerate via build_latex.sh)
+node_modules/
+package.json
+package-lock.json
+.tools/
+paper.pdf
+paper.aux
+paper.log
+paper.out
+paper-latex.md
+paper.md
+paper-fig.md
+paper-fig-*.pdf
+paper-fig-*.png
+paper.html
+figures/*.png
+test-pdf*
